@@ -7,7 +7,7 @@
 # Last Modified : 06/09/2023 
 # Modified By   : Start81 (DESMAREST JULIEN)
 # Description   : check azure budget 
-# Depends On    : REST::Client, Data::Dumper, Getopt::Long, JSON, Readonly, Monitoring::Plugin 
+# Depends On    : REST::Client, Data::Dumper, JSON, Readonly, Monitoring::Plugin, File::Basename 
 #
 # Changelog:
 #    Legend:
@@ -21,7 +21,6 @@
 
 use Data::Dumper;
 use JSON;
-use Getopt::Long;
 use warnings;
 use File::Basename;
 use REST::Client;

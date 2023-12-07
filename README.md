@@ -3,12 +3,12 @@ check budget usage in azure
 
 ### prerequisites
 
-This script uses theses libs : REST::Client,Data::Dumper,Getopt::Long,JSON,Readonly
+This script uses theses libs : REST::Client, Data::Dumper, JSON, Readonly, Monitoring::Plugin, File::Basename
 
 to install them type :
 
 ```
-sudo cpan REST::Client Data::Dumper Getopt::Long JSON Readonly
+sudo cpan REST::Client Data::Dumper JSON Readonly Monitoring::Plugin File::Basename
 ```
 ## Use case 
 ```bash

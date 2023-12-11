@@ -149,7 +149,8 @@ my $clientsecret = $np->opts->clientsecret;
 my $o_warning = $np->opts->warning;
 my $o_critical = $np->opts->critical;
 my $o_budget_name = $np->opts->budgetname;
-my $o_forecast = $np->opts->forecast if (defined $np->opts->forecast);
+my $o_forecast;
+$o_forecast = $np->opts->forecast if (defined $np->opts->forecast);
 $o_verb = $np->opts->verbose if (defined $np->opts->verbose);
 my $o_timeout = $np->opts->timeout;
 if ($o_timeout > 60){
